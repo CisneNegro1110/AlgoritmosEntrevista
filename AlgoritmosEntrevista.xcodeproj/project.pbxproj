@@ -19,6 +19,8 @@
 		EAC7FC56282B42E00014BFEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC7FC2B282B42E00014BFEB /* Assets.xcassets */; };
 		EAC7FC66282B431A0014BFEB /* NumerosParOImpar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC7FC65282B431A0014BFEB /* NumerosParOImpar.swift */; };
 		EAC7FC67282B431A0014BFEB /* NumerosParOImpar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC7FC65282B431A0014BFEB /* NumerosParOImpar.swift */; };
+		EAC7FC69282B478C0014BFEB /* NumerosPrimos.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC7FC68282B478C0014BFEB /* NumerosPrimos.swift */; };
+		EAC7FC6A282B478C0014BFEB /* NumerosPrimos.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC7FC68282B478C0014BFEB /* NumerosPrimos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,7 @@
 		EAC7FC4D282B42E00014BFEB /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		EAC7FC4F282B42E00014BFEB /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		EAC7FC65282B431A0014BFEB /* NumerosParOImpar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumerosParOImpar.swift; sourceTree = "<group>"; };
+		EAC7FC68282B478C0014BFEB /* NumerosPrimos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumerosPrimos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 				EAC7FC29282B42DC0014BFEB /* AlgoritmosEntrevistaApp.swift */,
 				EAC7FC2A282B42DC0014BFEB /* ContentView.swift */,
 				EAC7FC65282B431A0014BFEB /* NumerosParOImpar.swift */,
+				EAC7FC68282B478C0014BFEB /* NumerosPrimos.swift */,
 				EAC7FC2B282B42E00014BFEB /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -304,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAC7FC53282B42E00014BFEB /* ContentView.swift in Sources */,
+				EAC7FC69282B478C0014BFEB /* NumerosPrimos.swift in Sources */,
 				EAC7FC66282B431A0014BFEB /* NumerosParOImpar.swift in Sources */,
 				EAC7FC51282B42E00014BFEB /* AlgoritmosEntrevistaApp.swift in Sources */,
 			);
@@ -314,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAC7FC54282B42E00014BFEB /* ContentView.swift in Sources */,
+				EAC7FC6A282B478C0014BFEB /* NumerosPrimos.swift in Sources */,
 				EAC7FC67282B431A0014BFEB /* NumerosParOImpar.swift in Sources */,
 				EAC7FC52282B42E00014BFEB /* AlgoritmosEntrevistaApp.swift in Sources */,
 			);
