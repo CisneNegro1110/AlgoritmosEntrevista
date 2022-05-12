@@ -22,12 +22,6 @@ struct NumerosPrimos: View {
     }
 }
 
-struct NumerosPrimos_Previews: PreviewProvider {
-    static var previews: some View {
-            NumerosPrimos()
-    }
-}
-
 class viewModelNumeroPrimos: ObservableObject {
     func verificar(numero: Int) -> String {
         for i in 2..<numero {
@@ -38,3 +32,10 @@ class viewModelNumeroPrimos: ObservableObject {
         return "El numero \(numero) es un numero primo"
     }
 }
+
+struct NumerosPrimos_Previews: PreviewProvider {
+    static var previews: some View {
+            NumerosPrimos()
+    }
+}
+
