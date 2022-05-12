@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA70CD5C282BD67400E9CD27 /* Poo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA70CD5B282BD67400E9CD27 /* Poo.swift */; };
+		EA70CD5D282BD67400E9CD27 /* Poo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA70CD5B282BD67400E9CD27 /* Poo.swift */; };
 		EAC7FC42282B42E00014BFEB /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC7FC41282B42E00014BFEB /* Tests_iOS.swift */; };
 		EAC7FC44282B42E00014BFEB /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC7FC43282B42E00014BFEB /* Tests_iOSLaunchTests.swift */; };
 		EAC7FC4E282B42E00014BFEB /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC7FC4D282B42E00014BFEB /* Tests_macOS.swift */; };
@@ -41,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA70CD5B282BD67400E9CD27 /* Poo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poo.swift; sourceTree = "<group>"; };
 		EAC7FC29282B42DC0014BFEB /* AlgoritmosEntrevistaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoritmosEntrevistaApp.swift; sourceTree = "<group>"; };
 		EAC7FC2A282B42DC0014BFEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EAC7FC2B282B42E00014BFEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,6 +110,7 @@
 				EAC7FC2A282B42DC0014BFEB /* ContentView.swift */,
 				EAC7FC65282B431A0014BFEB /* NumerosParOImpar.swift */,
 				EAC7FC68282B478C0014BFEB /* NumerosPrimos.swift */,
+				EA70CD5B282BD67400E9CD27 /* Poo.swift */,
 				EAC7FC2B282B42E00014BFEB /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -307,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA70CD5C282BD67400E9CD27 /* Poo.swift in Sources */,
 				EAC7FC53282B42E00014BFEB /* ContentView.swift in Sources */,
 				EAC7FC69282B478C0014BFEB /* NumerosPrimos.swift in Sources */,
 				EAC7FC66282B431A0014BFEB /* NumerosParOImpar.swift in Sources */,
@@ -318,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA70CD5D282BD67400E9CD27 /* Poo.swift in Sources */,
 				EAC7FC54282B42E00014BFEB /* ContentView.swift in Sources */,
 				EAC7FC6A282B478C0014BFEB /* NumerosPrimos.swift in Sources */,
 				EAC7FC67282B431A0014BFEB /* NumerosParOImpar.swift in Sources */,
