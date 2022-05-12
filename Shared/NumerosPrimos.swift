@@ -24,9 +24,7 @@ struct NumerosPrimos: View {
 
 struct NumerosPrimos_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
             NumerosPrimos()
-        }
     }
 }
 
