@@ -11,7 +11,7 @@ struct Retroceso: View {
     
     let word = "Astronauta"
     var data = [1,2,3,4,5,6,7,8,9]
-    
+   @State var result = 0
     var body: some View {
         let reversedWord = String(word.reversed())
         let dataReverse: [Int] = data.reversed()

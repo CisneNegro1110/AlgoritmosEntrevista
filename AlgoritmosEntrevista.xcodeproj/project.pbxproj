@@ -11,6 +11,8 @@
 		EA70CD5D282BD67400E9CD27 /* Poo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA70CD5B282BD67400E9CD27 /* Poo.swift */; };
 		EA721A55282D3677000B53D7 /* Retroceso.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA721A54282D3677000B53D7 /* Retroceso.swift */; };
 		EA721A56282D3677000B53D7 /* Retroceso.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA721A54282D3677000B53D7 /* Retroceso.swift */; };
+		EA732544282F361D00BF67F6 /* Concurrencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA732543282F361D00BF67F6 /* Concurrencia.swift */; };
+		EA732545282F361D00BF67F6 /* Concurrencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA732543282F361D00BF67F6 /* Concurrencia.swift */; };
 		EAC7FC42282B42E00014BFEB /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC7FC41282B42E00014BFEB /* Tests_iOS.swift */; };
 		EAC7FC44282B42E00014BFEB /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC7FC43282B42E00014BFEB /* Tests_iOSLaunchTests.swift */; };
 		EAC7FC4E282B42E00014BFEB /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC7FC4D282B42E00014BFEB /* Tests_macOS.swift */; };
@@ -47,6 +49,7 @@
 /* Begin PBXFileReference section */
 		EA70CD5B282BD67400E9CD27 /* Poo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poo.swift; sourceTree = "<group>"; };
 		EA721A54282D3677000B53D7 /* Retroceso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retroceso.swift; sourceTree = "<group>"; };
+		EA732543282F361D00BF67F6 /* Concurrencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concurrencia.swift; sourceTree = "<group>"; };
 		EAC7FC29282B42DC0014BFEB /* AlgoritmosEntrevistaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoritmosEntrevistaApp.swift; sourceTree = "<group>"; };
 		EAC7FC2A282B42DC0014BFEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EAC7FC2B282B42E00014BFEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,6 +101,7 @@
 		EAC7FC23282B42DC0014BFEB = {
 			isa = PBXGroup;
 			children = (
+				EAC7FC29282B42DC0014BFEB /* AlgoritmosEntrevistaApp.swift */,
 				EAC7FC28282B42DC0014BFEB /* Shared */,
 				EAC7FC37282B42E00014BFEB /* macOS */,
 				EAC7FC40282B42E00014BFEB /* Tests iOS */,
@@ -109,11 +113,11 @@
 		EAC7FC28282B42DC0014BFEB /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				EAC7FC29282B42DC0014BFEB /* AlgoritmosEntrevistaApp.swift */,
 				EAC7FC2A282B42DC0014BFEB /* ContentView.swift */,
 				EAC7FC65282B431A0014BFEB /* NumerosParOImpar.swift */,
 				EAC7FC68282B478C0014BFEB /* NumerosPrimos.swift */,
 				EA721A54282D3677000B53D7 /* Retroceso.swift */,
+				EA732543282F361D00BF67F6 /* Concurrencia.swift */,
 				EA70CD5B282BD67400E9CD27 /* Poo.swift */,
 				EAC7FC2B282B42E00014BFEB /* Assets.xcassets */,
 			);
@@ -319,6 +323,7 @@
 				EAC7FC53282B42E00014BFEB /* ContentView.swift in Sources */,
 				EA721A55282D3677000B53D7 /* Retroceso.swift in Sources */,
 				EAC7FC69282B478C0014BFEB /* NumerosPrimos.swift in Sources */,
+				EA732544282F361D00BF67F6 /* Concurrencia.swift in Sources */,
 				EAC7FC66282B431A0014BFEB /* NumerosParOImpar.swift in Sources */,
 				EAC7FC51282B42E00014BFEB /* AlgoritmosEntrevistaApp.swift in Sources */,
 			);
@@ -332,6 +337,7 @@
 				EAC7FC54282B42E00014BFEB /* ContentView.swift in Sources */,
 				EA721A56282D3677000B53D7 /* Retroceso.swift in Sources */,
 				EAC7FC6A282B478C0014BFEB /* NumerosPrimos.swift in Sources */,
+				EA732545282F361D00BF67F6 /* Concurrencia.swift in Sources */,
 				EAC7FC67282B431A0014BFEB /* NumerosParOImpar.swift in Sources */,
 				EAC7FC52282B42E00014BFEB /* AlgoritmosEntrevistaApp.swift in Sources */,
 			);
