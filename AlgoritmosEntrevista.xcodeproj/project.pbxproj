@@ -15,6 +15,8 @@
 		EA732545282F361D00BF67F6 /* Concurrencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA732543282F361D00BF67F6 /* Concurrencia.swift */; };
 		EAA9ED99283197590045780F /* Filtro.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA9ED98283197580045780F /* Filtro.swift */; };
 		EAA9ED9A283197590045780F /* Filtro.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA9ED98283197580045780F /* Filtro.swift */; };
+		EAA9ED9C2831ED100045780F /* ContadorDePalabras.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA9ED9B2831ED100045780F /* ContadorDePalabras.swift */; };
+		EAA9ED9D2831ED100045780F /* ContadorDePalabras.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA9ED9B2831ED100045780F /* ContadorDePalabras.swift */; };
 		EAC7FC42282B42E00014BFEB /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC7FC41282B42E00014BFEB /* Tests_iOS.swift */; };
 		EAC7FC44282B42E00014BFEB /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC7FC43282B42E00014BFEB /* Tests_iOSLaunchTests.swift */; };
 		EAC7FC4E282B42E00014BFEB /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC7FC4D282B42E00014BFEB /* Tests_macOS.swift */; };
@@ -53,6 +55,7 @@
 		EA721A54282D3677000B53D7 /* Retroceso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retroceso.swift; sourceTree = "<group>"; };
 		EA732543282F361D00BF67F6 /* Concurrencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concurrencia.swift; sourceTree = "<group>"; };
 		EAA9ED98283197580045780F /* Filtro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filtro.swift; sourceTree = "<group>"; };
+		EAA9ED9B2831ED100045780F /* ContadorDePalabras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorDePalabras.swift; sourceTree = "<group>"; };
 		EAC7FC29282B42DC0014BFEB /* AlgoritmosEntrevistaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoritmosEntrevistaApp.swift; sourceTree = "<group>"; };
 		EAC7FC2A282B42DC0014BFEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EAC7FC2B282B42E00014BFEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -122,6 +125,7 @@
 				EA721A54282D3677000B53D7 /* Retroceso.swift */,
 				EA732543282F361D00BF67F6 /* Concurrencia.swift */,
 				EAA9ED98283197580045780F /* Filtro.swift */,
+				EAA9ED9B2831ED100045780F /* ContadorDePalabras.swift */,
 				EA70CD5B282BD67400E9CD27 /* Poo.swift */,
 				EAC7FC2B282B42E00014BFEB /* Assets.xcassets */,
 			);
@@ -323,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA9ED9C2831ED100045780F /* ContadorDePalabras.swift in Sources */,
 				EA70CD5C282BD67400E9CD27 /* Poo.swift in Sources */,
 				EAC7FC53282B42E00014BFEB /* ContentView.swift in Sources */,
 				EA721A55282D3677000B53D7 /* Retroceso.swift in Sources */,
@@ -338,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA9ED9D2831ED100045780F /* ContadorDePalabras.swift in Sources */,
 				EA70CD5D282BD67400E9CD27 /* Poo.swift in Sources */,
 				EAC7FC54282B42E00014BFEB /* ContentView.swift in Sources */,
 				EA721A56282D3677000B53D7 /* Retroceso.swift in Sources */,
