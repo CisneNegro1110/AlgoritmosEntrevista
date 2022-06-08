@@ -13,6 +13,8 @@
 		EA721A56282D3677000B53D7 /* Retroceso.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA721A54282D3677000B53D7 /* Retroceso.swift */; };
 		EA732544282F361D00BF67F6 /* Concurrencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA732543282F361D00BF67F6 /* Concurrencia.swift */; };
 		EA732545282F361D00BF67F6 /* Concurrencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA732543282F361D00BF67F6 /* Concurrencia.swift */; };
+		EA907F3128505DDF009FA315 /* RemoveDuplicateLetters.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA907F3028505DDF009FA315 /* RemoveDuplicateLetters.swift */; };
+		EA907F3228505DDF009FA315 /* RemoveDuplicateLetters.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA907F3028505DDF009FA315 /* RemoveDuplicateLetters.swift */; };
 		EAA9ED99283197590045780F /* Filtro.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA9ED98283197580045780F /* Filtro.swift */; };
 		EAA9ED9A283197590045780F /* Filtro.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA9ED98283197580045780F /* Filtro.swift */; };
 		EAA9ED9C2831ED100045780F /* ContadorDePalabras.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA9ED9B2831ED100045780F /* ContadorDePalabras.swift */; };
@@ -54,6 +56,7 @@
 		EA70CD5B282BD67400E9CD27 /* Poo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poo.swift; sourceTree = "<group>"; };
 		EA721A54282D3677000B53D7 /* Retroceso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retroceso.swift; sourceTree = "<group>"; };
 		EA732543282F361D00BF67F6 /* Concurrencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concurrencia.swift; sourceTree = "<group>"; };
+		EA907F3028505DDF009FA315 /* RemoveDuplicateLetters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicateLetters.swift; sourceTree = "<group>"; };
 		EAA9ED98283197580045780F /* Filtro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filtro.swift; sourceTree = "<group>"; };
 		EAA9ED9B2831ED100045780F /* ContadorDePalabras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorDePalabras.swift; sourceTree = "<group>"; };
 		EAC7FC29282B42DC0014BFEB /* AlgoritmosEntrevistaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoritmosEntrevistaApp.swift; sourceTree = "<group>"; };
@@ -125,6 +128,7 @@
 				EA721A54282D3677000B53D7 /* Retroceso.swift */,
 				EA732543282F361D00BF67F6 /* Concurrencia.swift */,
 				EAA9ED98283197580045780F /* Filtro.swift */,
+				EA907F3028505DDF009FA315 /* RemoveDuplicateLetters.swift */,
 				EAA9ED9B2831ED100045780F /* ContadorDePalabras.swift */,
 				EA70CD5B282BD67400E9CD27 /* Poo.swift */,
 				EAC7FC2B282B42E00014BFEB /* Assets.xcassets */,
@@ -250,7 +254,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					EAC7FC2F282B42E00014BFEB = {
 						CreatedOnToolsVersion = 13.3.1;
@@ -334,6 +338,7 @@
 				EAC7FC69282B478C0014BFEB /* NumerosPrimos.swift in Sources */,
 				EA732544282F361D00BF67F6 /* Concurrencia.swift in Sources */,
 				EAC7FC66282B431A0014BFEB /* NumerosParOImpar.swift in Sources */,
+				EA907F3128505DDF009FA315 /* RemoveDuplicateLetters.swift in Sources */,
 				EAC7FC51282B42E00014BFEB /* AlgoritmosEntrevistaApp.swift in Sources */,
 				EAA9ED99283197590045780F /* Filtro.swift in Sources */,
 			);
@@ -350,6 +355,7 @@
 				EAC7FC6A282B478C0014BFEB /* NumerosPrimos.swift in Sources */,
 				EA732545282F361D00BF67F6 /* Concurrencia.swift in Sources */,
 				EAC7FC67282B431A0014BFEB /* NumerosParOImpar.swift in Sources */,
+				EA907F3228505DDF009FA315 /* RemoveDuplicateLetters.swift in Sources */,
 				EAC7FC52282B42E00014BFEB /* AlgoritmosEntrevistaApp.swift in Sources */,
 				EAA9ED9A283197590045780F /* Filtro.swift in Sources */,
 			);
@@ -565,6 +571,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -593,6 +600,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
